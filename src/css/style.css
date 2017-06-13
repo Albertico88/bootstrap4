@@ -1,3 +1,11 @@
+body {
+  color: white; }
+
+#hero {
+  background: url("/assets/bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: 0 60%; }
+
 .navbar {
   width: 100%;
   background: none !important; }
@@ -7,7 +15,7 @@
   .navbar .navbar-toggler {
     cursor: pointer;
     outline: 0; }
-  .navbar .navbar-link {
+  .navbar .nav-link {
     text-transform: uppercase;
     font-weight: bold; }
   .navbar .nav-item {
@@ -19,3 +27,10 @@
       .navbar .nav-item .nav-link {
         font-weight: normal;
         color: white !important; } }
+
+h1 {
+  font-weight: bold;
+  font-size: 3.5em; }
+
+.hero-img {
+  width: 80%; }
