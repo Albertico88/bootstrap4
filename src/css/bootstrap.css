@@ -273,7 +273,7 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #292b2c;
-  background-color: #fff; }
+  background-color: #1A1B1D; }
 
 [tabindex="-1"]:focus {
   outline: none !important; }
@@ -318,7 +318,7 @@ blockquote {
   margin: 0 0 1rem; }
 
 a {
-  color: #0275d8;
+  color: #00FFC4;
   text-decoration: none; }
   a:focus, a:hover {
     color: #014c8c;
@@ -1382,7 +1382,7 @@ pre {
   .table tbody + tbody {
     border-top: 2px solid #eceeef; }
   .table .table {
-    background-color: #fff; }
+    background-color: #1A1B1D; }
 
 .table-sm th,
 .table-sm td {
@@ -1472,7 +1472,7 @@ pre {
   .table-inverse th,
   .table-inverse td,
   .table-inverse thead th {
-    border-color: #fff; }
+    border-color: #1A1B1D; }
   .table-inverse.table-bordered {
     border: 0; }
 
@@ -2010,7 +2010,7 @@ fieldset[disabled] a.btn {
 
 .btn-link {
   font-weight: normal;
-  color: #0275d8;
+  color: #00FFC4;
   border-radius: 0; }
   .btn-link, .btn-link:active, .btn-link.active, .btn-link:disabled {
     background-color: transparent; }
@@ -2938,8 +2938,8 @@ tbody.collapse.show {
   margin-left: -0.625rem; }
 
 .card-primary {
-  background-color: #0275d8;
-  border-color: #0275d8; }
+  background-color: #00FFC4;
+  border-color: #00FFC4; }
   .card-primary .card-header,
   .card-primary .card-footer {
     background-color: transparent; }
@@ -4016,13 +4016,13 @@ button.close {
   vertical-align: text-top !important; }
 
 .bg-faded {
-  background-color: #f7f7f7; }
+  background-color: #131315; }
 
 .bg-primary {
-  background-color: #0275d8 !important; }
+  background-color: #00FFC4 !important; }
 
 a.bg-primary:focus, a.bg-primary:hover {
-  background-color: #025aa5 !important; }
+  background-color: #00cc9d !important; }
 
 .bg-success {
   background-color: #5cb85c !important; }
@@ -5882,10 +5882,10 @@ a.text-muted:focus, a.text-muted:hover {
   color: #4b5257 !important; }
 
 .text-primary {
-  color: #0275d8 !important; }
+  color: #00FFC4 !important; }
 
 a.text-primary:focus, a.text-primary:hover {
-  color: #025aa5 !important; }
+  color: #00cc9d !important; }
 
 .text-success {
   color: #5cb85c !important; }
