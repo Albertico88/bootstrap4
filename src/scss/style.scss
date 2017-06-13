@@ -3,9 +3,9 @@ body {
 }
 
 #hero {
-  background: url('/assets/bg.jpg') no-repeat;
+  background: url('/assets/boxdonut.jpeg') no-repeat;
   background-size: cover;
-  background-position: 0 60%
+  background-position: 0 2%;
 }
 
 .navbar {
@@ -13,7 +13,13 @@ body {
   background: none !important;
 
   @media(max-width: 34em) {
-    background: black !important;
+    background: #fb4a37  !important;
+
+    .text-primary {
+      color: white !important;
+      text-align: center;
+      font-size: 30px;
+    }
   }
 
   .navbar-toggler {
@@ -48,6 +54,10 @@ h1 {
   font-size: 3.5em;
 }
 
-.hero-img {
-  width: 80%;
+// .hero-img {
+//   width: 80%;
+// }
+
+.feature-wrapper {
+  color: white;
 }

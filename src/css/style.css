@@ -2,16 +2,20 @@ body {
   color: white; }
 
 #hero {
-  background: url("/assets/bg.jpg") no-repeat;
+  background: url("/assets/boxdonut.jpeg") no-repeat;
   background-size: cover;
-  background-position: 0 60%; }
+  background-position: 0 2%; }
 
 .navbar {
   width: 100%;
   background: none !important; }
   @media (max-width: 34em) {
     .navbar {
-      background: black !important; } }
+      background: #fb4a37  !important; }
+      .navbar .text-primary {
+        color: white !important;
+        text-align: center;
+        font-size: 30px; } }
   .navbar .navbar-toggler {
     cursor: pointer;
     outline: 0; }
@@ -32,5 +36,5 @@ h1 {
   font-weight: bold;
   font-size: 3.5em; }
 
-.hero-img {
-  width: 80%; }
+.feature-wrapper {
+  color: white; }
