@@ -1,6 +1,7 @@
 body, footer {
   color: white;
-  font-family: "Raleway", Roboto, "Helvetica Neue", Arial, sans-serif; }
+  font-family: "Raleway", Roboto, "Helvetica Neue", Arial, sans-serif;
+  min-width: 360px; }
 
 #logo {
   font-size: 28px;
@@ -11,6 +12,9 @@ body, footer {
   background-size: cover;
   background-position: 0 2%;
   position: static; }
+
+.delivered {
+  text-decoration: underline; }
 
 .navbar {
   width: 100%;
@@ -40,7 +44,8 @@ body, footer {
 
 h1 {
   font-weight: bold;
-  font-size: 3.5em; }
+  font-size: 3.5em;
+  text-shadow: 2px 1px 0px #fb4a37, 3px 3px 5px #ce4d16; }
 
 .feature-wrapper {
   color: white; }
