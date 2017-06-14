@@ -1,9 +1,25 @@
+body {
+  color: white;
+}
+
+#hero {
+  background: url('/assets/boxdonut.jpeg') no-repeat;
+  background-size: cover;
+  background-position: 0 2%;
+}
+
 .navbar {
   width: 100%;
   background: none !important;
 
   @media(max-width: 34em) {
-    background: black !important;
+    background: #fb4a37  !important;
+
+    .text-primary {
+      color: white !important;
+      text-align: center;
+      font-size: 30px;
+    }
   }
 
   .navbar-toggler {
@@ -11,7 +27,7 @@
     outline: 0;
   }
 
-  .navbar-link {
+  .nav-link {
     text-transform: uppercase;
     font-weight: bold;
   }
@@ -30,4 +46,18 @@
       }
     }
   }
+}
+
+
+h1 {
+  font-weight: bold;
+  font-size: 3.5em;
+}
+
+// .hero-img {
+//   width: 80%;
+// }
+
+.feature-wrapper {
+  color: white;
 }
