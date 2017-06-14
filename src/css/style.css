@@ -1,15 +1,21 @@
 body {
-  color: white; }
+  color: white;
+  font-family: "Raleway", Roboto, "Helvetica Neue", Arial, sans-serif; }
+
+#logo {
+  font-size: 28px;
+  font-weight: normal; }
 
 #hero {
-  background: url("/assets/boxdonut.jpeg") no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/boxdonut.jpeg") no-repeat center center;
   background-size: cover;
-  background-position: 0 2%; }
+  background-position: 0 2%;
+  position: static; }
 
 .navbar {
   width: 100%;
   background: none !important; }
-  @media (max-width: 34em) {
+  @media (max-width: 544px) {
     .navbar {
       background: #fb4a37  !important; }
       .navbar .text-primary {
