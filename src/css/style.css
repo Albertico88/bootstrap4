@@ -1,4 +1,4 @@
-body {
+body, footer {
   color: white;
   font-family: "Raleway", Roboto, "Helvetica Neue", Arial, sans-serif; }
 
@@ -7,7 +7,7 @@ body {
   font-weight: normal; }
 
 #hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/boxdonut.jpeg") no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/assets/boxdonut.jpeg") no-repeat center center;
   background-size: cover;
   background-position: 0 2%;
   position: static; }
@@ -53,3 +53,7 @@ h1 {
   padding: 12px;
   border: none;
   cursor: pointer; }
+
+footer, small {
+  font-weight: light;
+  font-size: 14px; }
