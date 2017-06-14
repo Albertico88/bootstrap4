@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/Albertico88/bootstrap4#readme",
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.6"
+    "bootstrap": "^4.0.0-alpha.6",
+    "hover.css": "^2.2.0"
   },
   "devDependencies": {
     "browser-sync": "^2.18.12",
